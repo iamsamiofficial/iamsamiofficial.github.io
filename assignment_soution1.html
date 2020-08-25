@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="device-width, initial-scale=1">
+	<title>Assignment On</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		h1 {
+			
+			margin: 20px;
+			text-align: center;
+		}
+		nav {
+
+			position: relative;
+			font-size: 20px;
+			background-color: gray;
+			height: 200px;
+			margin-right: auto;
+			margin-left: auto;
+			border: 2px solid black;
+			font-family: Helvetica;
+			overflow: hidden;
+			padding-top: 40px;
+
+			margin: 10px;
+			
+			text-align: center;
+			
+			
+			
+		}
+		p {
+			position: absolute;
+			left: 75%;
+			width: 25%;
+			margin-bottom: 15px;
+			top: 0px;
+			height: 40px;
+			font-size: 24px;
+			border: 1px solid black;
+			
+			text-align: center;
+		}
+		#p1 {
+			background-color: pink;
+		}
+		#p2 {
+			background-color: maroon;
+		}
+		#p3 {
+			background-color: yellow;
+		}
+
+		/*****Responsive Design*****/
+
+		.row {
+			width: 100%;
+			
+		}
+
+
+		/*****Media Query*****/
+
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				float: left;
+				width: 31%;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-6 {
+				float: left;
+				width: 50%;
+				box-sizing: border-box;
+			}
+			.new {
+				clear: left;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	
+
+	<h1>History</h1>
+	
+	<div class="row">
+	<nav class="col-lg-4 col-md-6"><p id="p1">Chiken</p>ChikenChickens are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018.[1] up from more than 19 billion in 2011.[2] There are more chickens in the world than any other bird or domesticated fowl
+	</nav>
+	<nav class="col-lg-4 col-md-6"><p id="p2">Beef</p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of protein and nutrients.[2]Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of protein and nutrients.
+	</nav>
+	<nav class="col-lg-4 new"><p id="p3">Sushi</p>Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).[1]Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice.
+	</nav>
+</div>
+
+
+</body>
+</html>
